@@ -19,6 +19,7 @@ public class Student implements Comperable{
 
 
 
+	//This method returns 0 if the id's are identical, or 1 if otherID is shorter, or -1 if otherID is longer.
 	public int compareTo(Object other) {
 		int otherID;
 		int compareAns = 0;
