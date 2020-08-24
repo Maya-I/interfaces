@@ -5,6 +5,7 @@ public class CompareSort {
 		int i, j;
 		Object temp;
 		
+		//This for loop compares two arrays
 		for (i=1; i<array.length; i++) {
 			j=i;
 			while(j>0 && (comp.compare(array[j],array[j-1])<0)) {
